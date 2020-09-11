@@ -1,10 +1,10 @@
 {
-  "name": "vestoid-theme",
-  "description": "Updates the VestaCP theme to an enhanced version.",
-  "version": "0.1.1",
+  "name": "vesta-inligo-theme",
+  "description": "VestaCP theme for Inligo AS",
+  "version": "0.1.0",
   "min-vesta": "0.9.8",
-  "repository": "https://github.com/inligo-as/vestoid-theme",
-  "homepage": "https://github.com/inligo-as/vestoid-theme#readme",
+  "repository": "https://github.com/inligo-as/vesta-inligo-theme",
+  "homepage": "https://github.com/inligo-as/vesta-inligo-theme#readme",
   "author": {
     "name": "Inligo AS",
     "email": "post@inligo.no",
