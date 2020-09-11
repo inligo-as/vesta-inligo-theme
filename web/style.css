@@ -102,6 +102,12 @@ body {
     overflow-y: hidden;
 }
 
+@media(max-width: 680px) {
+    .l-stat {
+        width: 140px;
+    }
+}
+
 .l-stat:hover {
     overflow-y: auto;
 }
@@ -246,6 +252,12 @@ div.l-content > div.l-separator:nth-of-type(4) {
     padding-top: 80px;
 }
 
+@media(max-width: 680px) {
+    .l-content {
+        left: 115px;
+    }
+}
+
 /* Style for pages except forms */
 .l-center.units {
     background: #FFF;
@@ -388,4 +400,13 @@ table.login > tbody > tr > td > table > tbody .login-bottom a.error {
 table.login > tbody > tr > td > table > tbody .vestacp {
     padding-bottom: 10px;
     display: block;
+}
+
+/** Extra **/
+
+@media(max-width: 680px) {
+    .vst-list {
+        max-width: initial;
+        width: 150px;
+    }
 }
