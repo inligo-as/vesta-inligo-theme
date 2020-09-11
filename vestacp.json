@@ -1,7 +1,7 @@
 {
   "name": "vestoid-theme",
   "description": "Updates the VestaCP theme to an enhanced version.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "min-vesta": "0.9.8",
   "repository": "https://github.com/inligo-as/vestoid-theme",
   "homepage": "https://github.com/inligo-as/vestoid-theme#readme",
