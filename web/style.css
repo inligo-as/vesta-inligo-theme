@@ -34,8 +34,8 @@ body {
 }
 
 .l-header .l-logo {
-    background: url("img/vestacp.svg") no-repeat center #1e262c;
-    background-size: 130px auto;
+    background: url("img/inligo-logo.png") no-repeat center #1e262c;
+    background-size: contain;
     width: 240px;
     height: 46px;
     content: " ";
@@ -66,12 +66,12 @@ body {
 
 .l-menu__item.l-menu__item--active a {
     background: transparent;
-    color: #ff6701;
+    color: #F72F25;
     /*color: #f79b44;*/
 }
 
 .l-menu__item a:hover {
-    background: #ff6701;
+    background: #F72F25;
     color: #FFF;
 }
 
@@ -172,7 +172,7 @@ body {
 }
 
 .l-stat .l-stat__col ul li a:hover {
-    color: #ff6701;
+    color: #F72F25;
 }
 
 .l-stat .l-stat__col:not(.l-stat__col--active) ul li:first-child span {
@@ -195,11 +195,11 @@ body {
     letter-spacing: 0;
     margin-right: 0;
     background: rgba(0, 0, 0, 0.2);
-    border-left-color: #ff6701;
+    border-left-color: #F72F25;
 }
 
 .l-stat .l-stat__col a:hover .l-stat__col-title {
-    color: #ff6701;
+    color: #F72F25;
 }
 
 .l-stat .l-stat__col.l-stat__col--active ul {
@@ -261,7 +261,7 @@ div.l-content > div.l-separator:nth-of-type(4) {
 /* Style for pages except forms */
 .l-center.units {
     background: #FFF;
-    border-top: 2px solid #ff6701;
+    border-top: 2px solid #F72F25;
     max-width: calc(100% - 80px) !important;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -282,7 +282,7 @@ div.l-content > div.l-separator:nth-of-type(4) {
     padding-top: 0 !important;
     padding-bottom: 10px;
     background: #FFF;
-    border-top: 2px solid #ff6701;
+    border-top: 2px solid #F72F25; /* #ff6701 */
     max-width: calc(100% - 80px) !important;
     margin: 40px auto 40px;
 }
@@ -326,7 +326,7 @@ body.body-login .login {
 }
 
 table.login > tbody::before {
-    background: url("img/vestacp.svg") no-repeat center #262F37;
+    background: url("img/inligo-logo.png") no-repeat center #262F37;
     background-size: 260px auto;
     width: 100%;
     height: 80px;
